@@ -6,14 +6,14 @@ _Jianqi Ma, Zhetong Liang, [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang)
 _Department of Computing, [The Hong Kong Polytechnic University](http://www.comp.polyu.edu.hk), Hong Kong, China_ & OPPO Research
 
 #### Recovering TextZoom samples
-![TPGSR visualization](./visualization/TextSupReso-vis_sr_v2.png)
+![TATT visualization](./visualization/TATT-vis.jpg)
 
 ## Environment:
 
 
-![python](https://img.shields.io/badge/python-v3.7-green.svg?style=plastic)
-![pytorch](https://img.shields.io/badge/pytorch-v1.2-green.svg?style=plastic)
-![cuda](https://img.shields.io/badge/cuda-v9.1-green.svg?style=plastic)
+![python](https://img.shields.io/badge/python-v3.8-green.svg?style=plastic)
+![pytorch](https://img.shields.io/badge/pytorch-v1.8-green.svg?style=plastic)
+![cuda](https://img.shields.io/badge/cuda-v11.0-green.svg?style=plastic)
 ![numpy](https://img.shields.io/badge/numpy-1.18-green.svg?style=plastic)
 
 ```
@@ -22,10 +22,10 @@ Other possible python packages like pyyaml, cv2, Pillow and imgaug
 
 ## Main idea
 ### The pipeline
-<img src="./visualization/TextSupReso-TPGSR_v3.png" width="960px"/> 
+<img src="./visualizations/TATT_pipeline_v2.jpg" width="960px"/> 
 
 ### TP Interpreter
-<img src="./visualization/mt.jpg" width="480px"> 
+<img src="./visualizations/TATT-TP_Interpreter.jpg" width="480px"> 
 
 ## Configure your training
 ### Download the pretrained recognizer from: 
