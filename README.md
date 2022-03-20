@@ -22,10 +22,10 @@ Other possible python packages like pyyaml, cv2, Pillow and imgaug
 
 ## Main idea
 ### The pipeline
-<img src="./visualizations/TATT_pipeline_v2.jpg" width="640px"/> 
+<img src="./visualizations/TATT_pipeline_v2.jpg" width="720px"/> 
 
 ### TP Interpreter
-<img src="./visualizations/TATT-TP_Interpreter.jpg" width="640px"> 
+<img src="./visualizations/TATT-TP_Interpreter.jpg" width="720px"> 
 
 ## Configure your training
 ### Download the pretrained recognizer from: 
