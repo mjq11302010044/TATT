@@ -6,7 +6,7 @@ _Jianqi Ma, Zhetong Liang, [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang)
 _Department of Computing, [The Hong Kong Polytechnic University](http://www.comp.polyu.edu.hk), Hong Kong, China_ & OPPO Research
 
 #### Recovering TextZoom samples
-![TATT visualization](./visualization/TATT-vis.jpg)
+![TATT visualization](./visualizations/TATT-vis.jpg)
 
 ## Environment:
 
