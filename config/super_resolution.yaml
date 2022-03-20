@@ -1,0 +1,77 @@
+MODEL:
+
+
+TRAIN:
+  train_data_dir: [
+    '/data0_ssd2t/majianqi/TextZoom/train1',
+    '/data0_ssd2t/majianqi/TextZoom/train2',
+    # '/data0_ssd2t/majianqi/cute80_288/',
+    # '/data0_ssd2t/majianqi/NIPS2014',
+    # '/data1_ssd4t/majianqi/CVPR2016',
+    # "/data0_ssd2t/majianqi/video_seq"
+  ]
+  batch_size: 512
+  width: 128
+  height: 32
+  epochs: 500
+  cuda: True
+  ngpu: 1
+  workers: 8
+  resume: ''
+  ckpt_dir: './ckpt/with_test'
+  voc_type: 'all' #'digits lower upper all'
+  saveInterval: 200
+  displayInterval: 50 #display loss
+  adadelta: False
+  lr: 0.001
+  adam: True
+  optimizer: "Adam"
+  beta1: 0.5
+  manualSeed: 1234
+  max_len: 100
+  keep_ratio: False
+  down_sample_scale: 2
+
+  VAL:
+    val_data_dir: [
+      # '/data0_ssd2t/majianqi/cute80_288/'
+      #       
+      '/data0_ssd2t/majianqi/TextZoom/test/easy',
+      '/data0_ssd2t/majianqi/TextZoom/test/medium',
+      '/data0_ssd2t/majianqi/TextZoom/test/hard',
+      # "/home/data/majianqi/IC15rec_mdb/"
+      #'/home/data/majianqi/IC15rec_mdb/',
+      #"/data0_ssd2t/majianqi/curve_pick/LR/"
+      #../../DB/demo_results/原图5,
+      #../../DB/demo_results/中度模糊3,
+      #../../DB/demo_results/QQ截图20210901171902,
+      #../../DB/demo_results/QQ截图20210901171923,
+      #../../DB/demo_results/QQ截图20210901171855,
+      #../../DB/demo_results/中度模糊2,
+      #../../DB/demo_results/QQ截图20210901171844,
+      #../../DB/demo_results/QQ截图20210901171805,
+      #../../DB/demo_results/QQ截图20210901171737,
+      #../../DB/demo_results/原图3,
+      #../../DB/demo_results/QQ截图20210901171832,
+      #../../DB/demo_results/原图1,
+      #../../DB/demo_results/中度模糊,
+      #../../DB/demo_results/QQ截图20210901171814,
+      #../../DB/demo_results/原图2,
+
+    ]
+    n_vis: 10
+    vis_dir: 'demo'
+    valInterval: 400 #-1, val at the end of epoch
+    rec_pretrained: 'aster_demo.pth.tar'
+    moran_pretrained: 'moran_demo.pth'
+    crnn_pretrained: 'crnn.pth'
+
+TEST:
+  checkpoint: ''
+  test_data_dir: [
+  ]
+
+CONVERT:
+  image_dir:
+  lmdb_dir:
+  n_convert: 10
