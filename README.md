@@ -52,11 +52,12 @@ Adding '--go_test' in the shell file
 ```
 ## Cite this paper:
 
-	@article{ma2021text,
-  	title={A Text Attention Network for Spatial Deformation Robust Scene Text Image Super-resolution},
-  	author={Ma, Jianqi and Zhetong, Liang and Zhang, Lei},
-  	journal={},
-  	year={2022}
-	}
+	@inproceedings{ma2022text,
+          title={A Text Attention Network for Spatial Deformation Robust Scene Text Image Super-resolution},
+          author={Ma, Jianqi and Liang, Zhetong and Zhang, Lei},
+          booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+          pages={5911--5920},
+          year={2022}
+        }
 
 
